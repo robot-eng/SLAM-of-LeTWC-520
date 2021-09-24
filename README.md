@@ -7,6 +7,7 @@
 ```
 sudo apt install ros-*-rgbd-launch ros-*-libuvc ros-*-libuvc-camera ros-*-libuvc-ros
 ```
+###### 3.install openni2,openni
 ###### 2.install
 ```
 roscd astra_camera
