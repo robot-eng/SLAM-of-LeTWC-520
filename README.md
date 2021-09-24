@@ -1,6 +1,8 @@
 # SLAM
 ###### link : http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
 ### LeTWC-520
+#### git clone https://github.com/orbbec/ros_astra_camera.git
+git clone https://github.com/orbbec/ros_astra_launch.git fix 
 ```
 roslaunch astra_launch astrapro.launch
 ```
