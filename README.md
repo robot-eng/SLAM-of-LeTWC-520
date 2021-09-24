@@ -2,8 +2,8 @@
 ###### link : http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
 ### LeTWC-520
 ##### git clone https://github.com/orbbec/ros_astra_camera.git
-##### git clone https://github.com/orbbec/ros_astra_launch.git fix robot/SLAM : file ros_astra_launch
-ros_astra_launch/launch/astra.launch
+##### git clone https://github.com/orbbec/ros_astra_launch.git โหลดไฟล์เเทน robot/SLAM : file ros_astra_launch
+เเก้ไข ros_astra_launch/launch/astra.launch
 ```
 <node pkg="uvc_camera" type="uvc_camera_node" name="uvc_camera" output="screen" 	/>
 <param name="width" type="int" value="320" />
