@@ -19,6 +19,7 @@ ros_astra_launch/launch/astra.launch
 <param name="camera_info_url" type="string" value="file://$(find uvc_camera)/example.yaml" />
 
 ```
+RUN
 ```
 roslaunch astra_launch astrapro.launch
 ```
