@@ -13,6 +13,15 @@ sudo apt install ros-*-rgbd-launch ros-*-libuvc ros-*-libuvc-camera ros-*-libuvc
 roscd astra_camera
 ./scripts/create_udev_rules
 ```
+```
+ <node pkg="astra_camera" type="camera_node" name="$(arg camera)_rgb">
+      <!-- Parameters used to find the camera -->
+      <param name="vendor" value="0x2bc5"/>
+      <param name="product" value="0x0502"/>
+      <param name="serial" value="0"/>
+      <!-- If the above parameters aren't unique, choose the first match: -->
+      <param name="index" value="$(arg index)"/>
+```
 RUN
 ```
 roslaunch astra_launch astrapro.launch
