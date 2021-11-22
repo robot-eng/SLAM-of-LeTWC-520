@@ -27,5 +27,5 @@ RUN
 roslaunch astra_launch astrapro.launch
 ```
 ```
-roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start" rgb_topic:=/camera/rgb/image_raw depth_topic:=/camera/depth/image camera_info_topic:=/camera/depth/camera_info frame_id:=camera_link
+roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start" rgb_topic:=/camera/rgb/image_raw depth_topic:=/camera/depth/image camera_info_topic:=/camera/depth/camera_info approx_sync:=true frame_id:=camera_link
 ```
