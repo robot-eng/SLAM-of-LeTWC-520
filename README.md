@@ -1,17 +1,21 @@
 # SLAM
 ###### link : http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
 ### LeTWC-520
-##### git clone https://github.com/orbbec/ros_astra_camera.git
-##### git clone https://github.com/orbbec/ros_astra_launch.git โหลดไฟล์ robot/SLAM : file ros_astra_launch เเทน
+##### git clone https://github.com/orbbec/ros_astra_camera
+##### git clone https://github.com/LFZ1994/astrapro_launch โหลดไฟล์ robot/SLAM : file ros_astra_launch เเทน
 ###### 1.install 
 ```
 sudo apt install ros-*-rgbd-launch ros-*-libuvc ros-*-libuvc-camera ros-*-libuvc-ros
 ```
-###### 3.install openni2,openni
-###### 2.install
+###### 2.udev
 ```
 roscd astra_camera
 ./scripts/create_udev_rules
+```
+###### 2.install
+```
+cd ~/catkin_ws
+catkin_make --pkg astra_camera astrapro_launch
 ```
 ```
  <node pkg="astra_camera" type="camera_node" name="$(arg camera)_rgb">
