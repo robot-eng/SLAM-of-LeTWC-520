@@ -3,9 +3,9 @@
 ### LeTWC-520
 ##### git clone https://github.com/orbbec/ros_astra_camera
 ##### git clone https://github.com/LFZ1994/astrapro_launch โหลดไฟล์ robot/SLAM : file ros_astra_launch เเทน
-###### 1.install 
+###### 1.install lib 
 ```
-sudo apt install ros-*-rgbd-launch ros-*-libuvc ros-*-libuvc-camera ros-*-libuvc-ros
+sudo apt install ros-$ROS_DISTRO-rgbd-launch ros-$ROS_DISTRO-libuvc ros-$ROS_DISTRO-libuvc-camera ros-$ROS_DISTRO-libuvc-ros
 ```
 ###### 2.udev
 ```
