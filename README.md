@@ -12,11 +12,12 @@ sudo apt install ros-$ROS_DISTRO-rgbd-launch ros-$ROS_DISTRO-libuvc ros-$ROS_DIS
 roscd astra_camera
 ./scripts/create_udev_rules
 ```
-###### 2.install
+###### 3.install
 ```
 cd ~/catkin_ws
 catkin_make --pkg astra_camera astrapro_launch
 ```
+###### fix
 ```
  <node pkg="astra_camera" type="camera_node" name="$(arg camera)_rgb">
       <!-- Parameters used to find the camera -->
